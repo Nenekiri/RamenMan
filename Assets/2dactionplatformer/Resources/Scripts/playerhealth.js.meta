@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0fdd842eaf2a5431e982174adbcbdfba
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hitSound: {instanceID: 0}
+  - deathAnim: {instanceID: 0}
+  - heart1: {instanceID: 0}
+  - heart2: {instanceID: 0}
+  - heart3: {instanceID: 0}
+  - heartWhole: {fileID: 2800000, guid: 5083dbb889212cf4082bbce0e506a093, type: 3}
+  - heartHalf: {fileID: 2800000, guid: 775e311b21d73a74c93ca74a71671b1e, type: 3}
+  - heartEmpty: {fileID: 2800000, guid: c3cedcf3f2f726c4ea2af2b350a9ce88, type: 3}
+  - heartSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
