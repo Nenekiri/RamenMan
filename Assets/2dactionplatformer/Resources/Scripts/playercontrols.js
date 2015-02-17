@@ -22,6 +22,8 @@ private var maxjumpCount: int = 2;
 
 private var jumpTime: float = 0.0; 
 
+private var wallCollide: boolean = false; 
+
 function isGrounded(){
 		if (Physics.Raycast (transform.position - Vector3(0,0.25,0), Vector3(0,-1,0), hit) && hit.distance < 0.74) {
 	
@@ -58,20 +60,7 @@ function isJumping(){
 
 }//end of isJumping
  
-function OnTriggerEnter (other: Collider){
 
-	
-	if(other.tag == "wall"){
-	
-		Debug.Log("walls are fun");
-	
-		 
-		
-		 
-		
-	}
-
-} 
 
 function Update () {
 //jumpCounter becomes a timer.
@@ -243,21 +232,26 @@ if(Input.touchCount > 0){
 for(var touch1 : Touch in Input.touches) {
 	//if player presses less than 1/5 of the screen, go left.
 	if(touch1.position.x < Screen.width/5 && touch1.position.y < Screen.height/3){
+	
+
 		if(rigidbody.velocity.x > 0){
 			rigidbody.velocity.x = 0;
 		}
 		if(rigidbody.velocity.x > -walkSpeed){
 			rigidbody.velocity.x -= 48*Time.deltaTime;
 		}
+	
 	}
 	//if player presses between 1/5 and 2/5 of the screen, go right.
 	if(touch1.position.x > Screen.width/5 && touch1.position.x < Screen.width/5*2 && touch1.position.y < Screen.height/3){
+		
 		if(rigidbody.velocity.x < 0){
 			rigidbody.velocity.x = 0;
 		}
 		if(rigidbody.velocity.x < walkSpeed){
 			rigidbody.velocity.x += 48*Time.deltaTime;
 		}
+	 
 	}
 if(Input.touchCount == 1 && touch1.position.x > Screen.width/2){
 rigidbody.velocity.x = 0.0;
