@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var pickupSound:AudioClip;
+var sound: AudioClip;
 
 
 
@@ -9,10 +9,10 @@ function OnTriggerEnter (other : Collider){
 
 
 if(other.tag == "Player"){
-Debug.Log("key get!");
-audio.PlayOneShot(pickupSound);
+audio.PlayOneShot(sound);
 Globals.keyGet = true;	
 Destroy(this.gameObject);
+
 
 	}
 

@@ -28,7 +28,7 @@ private var playerDist:float = 0.0;
 
 function Start () {
 //here we set the player as the target to help give the jumper behaviors. Pretty much simple AI.
-target = GameObject.Find("player_man");
+target = GameObject.Find("ramen_man");
 //here it makes it ignore other enemy colliders so they can't get caught on each other.
 var enemies = GameObject.FindGameObjectsWithTag("enemy");
 for (var en : GameObject in enemies)  {

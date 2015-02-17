@@ -910,7 +910,7 @@ MonoBehaviour:
     - id: 4
       name: Bequeathing
       startPage: 0
-      scrollPosition: {x: 2013.41943, y: 74.3821335}
+      scrollPosition: {x: 2838.41943, y: 74.3821335}
       phases:
       - id: 0
         type: 0
@@ -1849,7 +1849,7 @@ MonoBehaviour:
         outs: 1f000000
         advanced: 0
         metadata: 
-        text: you literally cracked open a portal
+        text: 'you literally cracked open a '
         name: 
         portrait: 
         audio: 
@@ -1880,7 +1880,7 @@ MonoBehaviour:
         outs: 20000000
         advanced: 0
         metadata: 
-        text: 'into our world. After that we took '
+        text: 'portal into our world. After that  '
         name: 
         portrait: 
         audio: 
@@ -1911,7 +1911,7 @@ MonoBehaviour:
         outs: 21000000
         advanced: 0
         metadata: 
-        text: 'care of altering your form so '
+        text: 'we took care of altering your  '
         name: 
         portrait: 
         audio: 
@@ -1942,7 +1942,7 @@ MonoBehaviour:
         outs: 22000000
         advanced: 0
         metadata: 
-        text: 'you could help us. '
+        text: 'form so you could help us. '
         name: 
         portrait: 
         audio: 
@@ -2221,7 +2221,7 @@ MonoBehaviour:
         outs: 2b000000
         advanced: 0
         metadata: 
-        text: What kind of evil are we talking about?
+        text: What kind of evil?
         name: 
         portrait: 
         audio: 
@@ -2590,10 +2590,754 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 2884.41943, y: 89.3821335}
-        outs: ffffffff
+        outs: 37000000
         advanced: 0
         metadata: 
-        text: 'in a last-ditch effort to save the world.  '
+        text: 'in a last-ditch effort to   '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 55
+        type: 0
+        theme: 
+        position: {x: 2884.41943, y: 219.382141}
+        outs: 38000000
+        advanced: 0
+        metadata: 
+        text: save the world.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 56
+        type: 0
+        theme: 
+        position: {x: 2886.41943, y: 350.382141}
+        outs: 39000000
+        advanced: 0
+        metadata: 
+        text: So how do I defeat this "Rot"?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 57
+        type: 0
+        theme: 
+        position: {x: 2887.41943, y: 483.382141}
+        outs: 3a000000
+        advanced: 0
+        metadata: 
+        text: 'Burgle: As Ramen Man, you have '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 58
+        type: 0
+        theme: 
+        position: {x: 2888.41943, y: 615.382141}
+        outs: 3b000000
+        advanced: 0
+        metadata: 
+        text: 'extremely strong preservatives '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 59
+        type: 0
+        theme: 
+        position: {x: 2889.41943, y: 750.382141}
+        outs: 3c000000
+        advanced: 0
+        metadata: 
+        text: 'coursing through you. This '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 60
+        type: 0
+        theme: 
+        position: {x: 3186.41943, y: 88.3821335}
+        outs: 3d000000
+        advanced: 0
+        metadata: 
+        text: 'preservative power is what will '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 61
+        type: 0
+        theme: 
+        position: {x: 3190.41943, y: 221.382141}
+        outs: 3e000000
+        advanced: 0
+        metadata: 
+        text: 'assist you in taking down Rot '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 62
+        type: 0
+        theme: 
+        position: {x: 3190.41943, y: 353.382141}
+        outs: 3f000000
+        advanced: 0
+        metadata: 
+        text: 'and his minions. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 63
+        type: 0
+        theme: 
+        position: {x: 3188.41943, y: 485.382141}
+        outs: 40000000
+        advanced: 0
+        metadata: 
+        text: 'Broc: Rot has become immensely '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 64
+        type: 0
+        theme: 
+        position: {x: 3186.41943, y: 617.382141}
+        outs: 41000000
+        advanced: 0
+        metadata: 
+        text: 'powerful and has infected '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 65
+        type: 0
+        theme: 
+        position: {x: 3192.41943, y: 748.382141}
+        outs: 42000000
+        advanced: 0
+        metadata: 
+        text: 'every world in Foodlandia. We '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 66
+        type: 0
+        theme: 
+        position: {x: 3488.41943, y: 90.3821335}
+        outs: 43000000
+        advanced: 0
+        metadata: 
+        text: have given you the power of
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 67
+        type: 0
+        theme: 
+        position: {x: 3493.41943, y: 222.382141}
+        outs: 44000000
+        advanced: 0
+        metadata: 
+        text: chicken, which allows you to
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 68
+        type: 0
+        theme: 
+        position: {x: 3496.41943, y: 355.382141}
+        outs: 45000000
+        advanced: 0
+        metadata: 
+        text: 'shoot out your broth at enemies. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 69
+        type: 0
+        theme: 
+        position: {x: 3494.41943, y: 486.382141}
+        outs: 46000000
+        advanced: 0
+        metadata: 
+        text: By defeating Rot's general's you
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 70
+        type: 0
+        theme: 
+        position: {x: 3497.41943, y: 616.382141}
+        outs: 47000000
+        advanced: 0
+        metadata: 
+        text: 'will gain access to new  '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 71
+        type: 0
+        theme: 
+        position: {x: 3496.41943, y: 747.382141}
+        outs: 48000000
+        advanced: 0
+        metadata: 
+        text: 'flavors and new abilities. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 72
+        type: 0
+        theme: 
+        position: {x: 3791.41943, y: 90.3821411}
+        outs: 49000000
+        advanced: 0
+        metadata: 
+        text: Alright then, just one more question.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 73
+        type: 0
+        theme: 
+        position: {x: 3794.41943, y: 222.382141}
+        outs: 4a000000
+        advanced: 0
+        metadata: 
+        text: 'Citron: I''m sorry, but we''ve '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 74
+        type: 0
+        theme: 
+        position: {x: 3797.41943, y: 354.382141}
+        outs: 4b000000
+        advanced: 0
+        metadata: 
+        text: 'run out of time. You''ll need to '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 75
+        type: 0
+        theme: 
+        position: {x: 3800.41943, y: 484.382141}
+        outs: 4c000000
+        advanced: 0
+        metadata: 
+        text: 'figure the rest out on your own. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 76
+        type: 0
+        theme: 
+        position: {x: 3801.41943, y: 618.382141}
+        outs: 4d000000
+        advanced: 0
+        metadata: 
+        text: 'Burgle: Good luck and godspeed, '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 77
+        type: 0
+        theme: 
+        position: {x: 3805.41943, y: 748.382141}
+        outs: 4e000000
+        advanced: 0
+        metadata: 
+        text: Ramen Man!
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 78
+        type: 6
+        theme: 
+        position: {x: 4140.41943, y: 752.382141}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
         name: 
         portrait: 
         audio: 

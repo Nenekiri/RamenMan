@@ -27770,7 +27770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d1cb771464b3814f824f1f1d96fe997, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupSound: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
+  sound: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
 --- !u!82 &721002283
 AudioSource:
   m_ObjectHideFlags: 0
@@ -27780,7 +27780,7 @@ AudioSource:
   m_GameObject: {fileID: 721002277}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -35662,6 +35662,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 561970f3d4f3b2541b81feb5942b7e28, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 561970f3d4f3b2541b81feb5942b7e28, type: 2}
+      propertyPath: pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
+    - target: {fileID: 11400002, guid: 561970f3d4f3b2541b81feb5942b7e28, type: 2}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 561970f3d4f3b2541b81feb5942b7e28, type: 2}
   m_RootGameObject: {fileID: 721002277}

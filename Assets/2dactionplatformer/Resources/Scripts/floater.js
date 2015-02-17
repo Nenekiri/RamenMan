@@ -26,7 +26,7 @@ private var frameRate:float = 6.0;
 
 //we use the player to help animate the floater enemy by using the player's position.
 function Start () {
-target = GameObject.Find("player_man");
+target = GameObject.Find("ramen_man");
 }
 
 function Update () {

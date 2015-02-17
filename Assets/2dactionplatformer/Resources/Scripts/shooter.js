@@ -37,7 +37,7 @@ private var hitDown:RaycastHit;
 
 //we want to use the player as a reference for animating and giving a simple AI.
 function Start () {
-target = GameObject.Find("player_man");
+target = GameObject.Find("ramen_man");
 }
 
 function Update () {
