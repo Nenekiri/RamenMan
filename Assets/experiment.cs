@@ -4,7 +4,8 @@ using System.Collections;
 public class experiment : MonoBehaviour {
 
 
-	public bool order = false; 
+	public bool order = false;
+	public static bool arrived = false; 
 
 	void Awake(){
 	
@@ -21,9 +22,16 @@ public class experiment : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if(order == true){
+		
+			StartCoroutine(Chinese ()); 
+
+
+		}//end of 1st if
+
 		 
 	
-	}
+	}//end of update
 
   void OnTriggerEnter (Collider other){
 
@@ -37,7 +45,23 @@ public class experiment : MonoBehaviour {
 			
 			}
 		}
-	}
+	}//end of OnTriggerEnter
+
+			IEnumerator Chinese() {
+				
+			yield return new WaitForSeconds(30);
+				
+				if(arrived == false){
+
+				
+					
+					Dialoguer.StartDialogue(5);
+					arrived = true;
+					//Dialoguer.StartDialogue(6);
+					
+					
+				}
+			}
 
 
 	

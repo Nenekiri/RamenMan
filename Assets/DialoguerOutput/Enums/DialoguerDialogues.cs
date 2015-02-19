@@ -6,4 +6,6 @@ public enum DialoguerDialogues{
 	Apartment_Blues = 2,
 	Ordering_Chinese = 3,
 	Bequeathing = 4,
+	Chinese_is_here = 5,
+	Fortune_Cookie = 6,
 }
