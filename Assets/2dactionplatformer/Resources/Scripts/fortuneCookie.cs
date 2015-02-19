@@ -3,7 +3,8 @@ using System.Collections;
 
 public class fortuneCookie : MonoBehaviour {
 
-	public bool fortune = false;
+	public static bool fortune = false;
+	//public static bool portalOpened = false; 
 
 	
 	void Awake(){
@@ -31,14 +32,17 @@ public class fortuneCookie : MonoBehaviour {
 		
 		
 		if (experiment.arrived == true){
-		if(fortune == false){
-			if(other.tag == "Player"){
-				
-				Dialoguer.StartDialogue(6);
-				fortune = true; 
-				
+			if(fortune == false){
+				if(other.tag == "Player"){
+					
+					Dialoguer.StartDialogue(6);
+					fortune = true; 
+					
+					Globals2.portalOpened = true; 
+					Debug.Log(Globals2.portalOpened); 
+					
+				}
 			}
-		}
 		}
 	}//end of OnTriggerEnter
 }

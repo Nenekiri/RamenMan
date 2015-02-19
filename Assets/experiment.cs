@@ -49,7 +49,7 @@ public class experiment : MonoBehaviour {
 
 			IEnumerator Chinese() {
 				
-			yield return new WaitForSeconds(30);
+			yield return new WaitForSeconds(20);
 				
 				if(arrived == false){
 
