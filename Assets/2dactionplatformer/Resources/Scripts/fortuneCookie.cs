@@ -10,12 +10,15 @@ public class fortuneCookie : MonoBehaviour {
 	void Awake(){
 		
 		Dialoguer.Initialize(); 
+		 
 		
 	}
 	
 	
 	// Use this for initialization
 	void Start () {
+
+
 		
 	}
 	

@@ -5,10 +5,7 @@ public class DialoguerExampleStart : MonoBehaviour {
 
 	private bool conversation = false; 
 
-	void Awake(){
-		// You must initialize Dialoguer before using it!
-		Dialoguer.Initialize();
-	}
+
 
 	void Start(){
 		

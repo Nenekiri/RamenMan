@@ -3,7 +3,8 @@ using System.Collections;
 
 public class portal3 : MonoBehaviour {
 
-	public GameObject Portal; 
+	public GameObject Portal;
+
 
 	// Use this for initialization
 	void Start () {
