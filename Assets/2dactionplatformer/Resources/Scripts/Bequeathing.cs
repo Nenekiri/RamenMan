@@ -10,6 +10,7 @@ public class Bequeathing : MonoBehaviour {
 	}
 	
 	void Start(){
+
 		
 		
 		StartCoroutine(Example()); 

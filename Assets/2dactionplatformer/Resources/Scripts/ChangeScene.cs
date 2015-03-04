@@ -33,7 +33,13 @@ public class ChangeScene : MonoBehaviour {
 			Application.LoadLevel("level3");
 		}
 		if(PlayerPrefs.GetFloat("savedLevel") == 4){
-			Application.LoadLevel("level4"); }
+			Application.LoadLevel("waitingRoom"); }
+
+		if(PlayerPrefs.GetFloat("savedLevel") == 5){
+			Application.LoadLevel("SW_1-1"); }
+
+		if(PlayerPrefs.GetFloat("savedLevel") == 6){
+			Application.LoadLevel("SW_1-2"); }
 
 	}
 

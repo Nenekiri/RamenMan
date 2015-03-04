@@ -31,6 +31,11 @@ if(other.tag == "Player"){
 Application.LoadLevel(nextLevel); }
 }
 
+if(levelNumber == 4){
+if(other.tag == "Player"){
+Application.LoadLevel(nextLevel); }
+}
+
 
 
 }//end of OnTriggerEnter

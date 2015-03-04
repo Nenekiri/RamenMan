@@ -6390,7 +6390,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
@@ -8078,7 +8078,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e8b08ec7b1d02b449bd1b1b743e9d62c, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8b08ec7b1d02b449bd1b1b743e9d62c, type: 2}
@@ -10705,7 +10705,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
@@ -12945,7 +12945,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65cc22a21d244a09a7b9c013f42522, type: 2}
@@ -20708,9 +20708,9 @@ MonoBehaviour:
   health: 6
   hitSound: {fileID: 8300000, guid: 9a11296a5dc014d67be4e6134ed31778, type: 3}
   deathAnim: {fileID: 100000, guid: be985e0566866484180a4b7b91e3f026, type: 2}
-  heart1: {fileID: 0}
-  heart2: {fileID: 0}
-  heart3: {fileID: 0}
+  heart1: {fileID: 841879480}
+  heart2: {fileID: 1219106823}
+  heart3: {fileID: 101929332}
   heartWhole: {fileID: 2800000, guid: 6cc1d9900ec434db2ba95eb1065c8424, type: 3}
   heartHalf: {fileID: 2800000, guid: a8d389b7e4b8a4b289f5b3de3cb2bf40, type: 3}
   heartEmpty: {fileID: 2800000, guid: b6029d1586fc0443cb362ab647e1fa3b, type: 3}
@@ -50168,6 +50168,46 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1553200238}
   m_GameObject: {fileID: 1149957157}
   m_Mesh: {fileID: 4300000, guid: 13cd260d70d730e4389ff05566299347, type: 3}
+--- !u!1 &1150792549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1150792551}
+  - 114: {fileID: 1150792550}
+  m_Layer: 0
+  m_Name: music manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1150792550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1150792549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f0fc76a3160e14eaff03e058456ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewMusic: {fileID: 8300000, guid: 12b53ad064e4a114fa7e03212a9df03e, type: 3}
+--- !u!4 &1150792551
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1150792549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.67115164, y: -.562268317, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
 --- !u!1001 &1153578281
 Prefab:
   m_ObjectHideFlags: 0
@@ -59300,20 +59340,20 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad1b092b372dd194aaebf354a85f936c, type: 2}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ad1b092b372dd194aaebf354a85f936c, type: 2}
       propertyPath: heart1
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 841879480}
     - target: {fileID: 11400000, guid: ad1b092b372dd194aaebf354a85f936c, type: 2}
       propertyPath: heart2
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1219106823}
     - target: {fileID: 11400000, guid: ad1b092b372dd194aaebf354a85f936c, type: 2}
       propertyPath: heart3
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 101929332}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad1b092b372dd194aaebf354a85f936c, type: 2}
   m_RootGameObject: {fileID: 468794277}
@@ -63420,7 +63460,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 11aa94c0f312f444d8575919ac214e40, type: 2}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 11aa94c0f312f444d8575919ac214e40, type: 2}
@@ -67752,15 +67792,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 2903f73660223c84b8352b329040b5e9, type: 2}
       propertyPath: levelNumber
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 2903f73660223c84b8352b329040b5e9, type: 2}
       propertyPath: nextLevel
-      value: level4
+      value: SW_1-2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2903f73660223c84b8352b329040b5e9, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2903f73660223c84b8352b329040b5e9, type: 2}
@@ -73193,8 +73233,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc8be20a87af204f8d1ada98f07f1d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 3
-  nextLevel: level4
+  levelNumber: 5
+  nextLevel: SW_1-2
 --- !u!23 &1669400367
 Renderer:
   m_ObjectHideFlags: 0
