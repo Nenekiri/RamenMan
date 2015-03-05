@@ -410,7 +410,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4278255885
+    rgba: 4294967295
   m_PixelCorrect: 0
   m_RichText: 1
 --- !u!4 &242163570
@@ -3072,6 +3072,7 @@ GameObject:
   - 92: {fileID: 2114577201}
   - 81: {fileID: 2114577200}
   - 114: {fileID: 2114577205}
+  - 45: {fileID: 2114577206}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3160,3 +3161,11 @@ MonoBehaviour:
   Council: {fileID: 779447946}
   RamenCopy: {fileID: 0}
   level: {fileID: 0}
+--- !u!45 &2114577206
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2114577199}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: a4f78a684965a2d4bbc20a4b86231606, type: 2}
