@@ -12,13 +12,71 @@ var fireRight:Texture;
 var jumpRight:Texture;
 var jumpLeft:Texture; 
 
+//Ramen Man with a top hat and monocle
+var idleLeftHat1:Texture;
+var idleRightHat1:Texture;
+var left1Hat1:Texture;
+var left2Hat1:Texture;
+var right1Hat1:Texture;
+var right2Hat1:Texture;
+var fireLeftHat1:Texture;
+var fireRightHat1:Texture;
+var jumpRightHat1:Texture;
+var jumpLeftHat1:Texture;
+
+//Ramen Man with a bowler
+var idleLeftHat2:Texture;
+var idleRightHat2:Texture;
+var left1Hat2:Texture;
+var left2Hat2:Texture;
+var right1Hat2:Texture;
+var right2Hat2:Texture;
+var fireLeftHat2:Texture;
+var fireRightHat2:Texture;
+var jumpRightHat2:Texture;
+var jumpLeftHat2:Texture;  
+
+
+//var RamenMan: GameObject; 
+
 //here are some private variables we use to help animate the character.
 private var counter:float = 0.0;
 private var frameRate:float = 8;
 private var direction = true;
 private var hit:RaycastHit;
 
+function Costume(){
+
+	if(PlayerPrefs.GetString("code1") == "1234"){
+		 //Debug.Log("something"); 
+		idleLeft = idleLeftHat1; 
+		idleRight = idleRightHat1; 
+		left1 = left1Hat1; 
+		left2 = left2Hat1; 
+		right1 = right1Hat1; 
+		right2 = right2Hat1;
+		fireLeft = fireLeftHat1; 
+		fireRight = fireRightHat1; 
+		jumpRight = jumpRightHat1;
+		jumpLeft = jumpLeftHat1;  
+		
+	
+	}
+
+
+}
+
+/*function Start(){
+
+	RamenMan = GameObject.Find("ramen_man"); 
+	
+
+}*/
+
 function Update () {
+
+	Costume(); 
+
 //here we keep track of time for animating. this is important for the walking.
 counter += Time.deltaTime*frameRate;
 
