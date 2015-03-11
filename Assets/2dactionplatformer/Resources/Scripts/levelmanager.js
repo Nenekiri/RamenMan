@@ -37,11 +37,27 @@ Application.LoadLevel(nextLevel); }
 }
 
 if(levelNumber == 5){
+if(other.tag == "Player" && Globals.keyGetYellow == true){
+Application.LoadLevel(nextLevel); 
+Globals.keyGetYellow = false; }
+}
+
+if(levelNumber == 6){
 if(other.tag == "Player"){
 Application.LoadLevel(nextLevel); }
 }
 
-if(levelNumber == 6){
+if(levelNumber == 7){
+if(other.tag == "Player"){
+Application.LoadLevel(nextLevel); }
+}
+
+if(levelNumber == 8){
+if(other.tag == "Player"){
+Application.LoadLevel(nextLevel); }
+}
+
+if(levelNumber == 9){
 if(other.tag == "Player"){
 Application.LoadLevel(nextLevel); }
 }

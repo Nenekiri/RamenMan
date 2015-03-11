@@ -799,3 +799,58 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: tileset
+    spriteCollectionGUID: 343a2add33a17b247a5650d8c7ec6a40
+    spriteCollectionDataGUID: 6443f7489ec52f54894c1b9196a7dccb
+    spriteNames:
+    - practicetilemap2/0
+    - practicetilemap2/1
+    - practicetilemap2/2
+    - practicetilemap2/3
+    - practicetilemap2/4
+    - practicetilemap2/5
+    - practicetilemap2/6
+    - practicetilemap2/7
+    - practicetilemap2/8
+    - practicetilemap2/9
+    - practicetilemap2/10
+    - practicetilemap2/11
+    - practicetilemap2/12
+    - practicetilemap2/13
+    - practicetilemap2/14
+    spriteTextureGUIDs:
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    - 7f41db08f6e54bd40a5e4be70da5a48c
+    spriteTextureTimeStamps:
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    - 1426081093.5588
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

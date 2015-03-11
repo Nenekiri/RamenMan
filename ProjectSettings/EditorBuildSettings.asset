@@ -14,9 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2dactionplatformer/Scenes/level1.unity
   - enabled: 1
-    path: Assets/2dactionplatformer/Scenes/SW_1-1.unity
+    path: Assets/2dactionplatformer/Scenes/SW_1-3.unity
   - enabled: 1
-    path: Assets/2dactionplatformer/Scenes/SW_1-2.unity
+    path: Assets/2dactionplatformer/Scenes/SW_1-4.unity
   - enabled: 1
     path: Assets/2dactionplatformer/Scenes/Options.unity
   - enabled: 1
@@ -27,3 +27,7 @@ EditorBuildSettings:
     path: Assets/2dactionplatformer/Scenes/level3.unity
   - enabled: 1
     path: Assets/2dactionplatformer/Scenes/waitingRoom.unity
+  - enabled: 1
+    path: Assets/2dactionplatformer/Scenes/SW_1-1.unity
+  - enabled: 1
+    path: Assets/2dactionplatformer/Scenes/SW_1-2.unity

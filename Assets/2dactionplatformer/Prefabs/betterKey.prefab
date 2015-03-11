@@ -11,10 +11,10 @@ GameObject:
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400000}
   - 65: {fileID: 6500000}
-  - 114: {fileID: 11400002}
   - 82: {fileID: 8200000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: key
+  m_Name: betterKey
   m_TagString: key
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1cb771464b3814f824f1f1d96fe997, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ad14a8213a0a6d4b9423c1b65446ab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sound: {fileID: 8300000, guid: 4c6e9878d4cb843e7a86c8564c11a99a, type: 3}
