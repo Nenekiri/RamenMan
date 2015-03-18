@@ -5,7 +5,7 @@ var walkSpeed:float = 14.0;
 //how high the player can jump
 var jumpHeight:float = 8.0;
 //at what point the level resets if the player falls in a hole
-var fallLimit:float = -10;
+var fallLimit:float = -300;
 //jump sound
 var jumpSound:AudioClip;
 
