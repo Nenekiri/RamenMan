@@ -43,8 +43,9 @@ Globals.keyGetYellow = false; }
 }
 
 if(levelNumber == 6){
-if(other.tag == "Player"){
-Application.LoadLevel(nextLevel); }
+if(other.tag == "Player" && Globals.keyGetYellow == true){
+Application.LoadLevel(nextLevel); 
+Globals.keyGetYellow = false; }
 }
 
 if(levelNumber == 7){

@@ -30,6 +30,20 @@ public class UIInputField : MonoBehaviour {
 			PlayerPrefs.SetString("code1", text.text); 
 
 		}
+
+		else if(text.text == "Bowl"){
+			
+			Debug.Log("it works, huzzah!"); 
+			PlayerPrefs.SetString("code1", text.text); 
+			
+		}
+
+		else if(text.text == "Cool"){
+			
+			Debug.Log("it works, huzzah!"); 
+			PlayerPrefs.SetString("code1", text.text); 
+			
+		}
 		else{
 			Debug.Log("ya blew it..."); 
 		}

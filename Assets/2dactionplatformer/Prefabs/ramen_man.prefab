@@ -206,6 +206,26 @@ MonoBehaviour:
   fireRightHat1: {fileID: 2800000, guid: a53161fc4d2c54f4a8e33061c580ed6d, type: 3}
   jumpRightHat1: {fileID: 2800000, guid: a53161fc4d2c54f4a8e33061c580ed6d, type: 3}
   jumpLeftHat1: {fileID: 2800000, guid: 6aead09213e2fed49bff2b8b1ee86735, type: 3}
+  idleLeftHat2: {fileID: 2800000, guid: fad1c11d1d64f944583f87fc12725e35, type: 3}
+  idleRightHat2: {fileID: 2800000, guid: ec75e3bf131dc4b4b80ee860116f85dd, type: 3}
+  left1Hat2: {fileID: 2800000, guid: fad1c11d1d64f944583f87fc12725e35, type: 3}
+  left2Hat2: {fileID: 2800000, guid: fad1c11d1d64f944583f87fc12725e35, type: 3}
+  right1Hat2: {fileID: 2800000, guid: ec75e3bf131dc4b4b80ee860116f85dd, type: 3}
+  right2Hat2: {fileID: 2800000, guid: ec75e3bf131dc4b4b80ee860116f85dd, type: 3}
+  fireLeftHat2: {fileID: 2800000, guid: fad1c11d1d64f944583f87fc12725e35, type: 3}
+  fireRightHat2: {fileID: 2800000, guid: ec75e3bf131dc4b4b80ee860116f85dd, type: 3}
+  jumpRightHat2: {fileID: 2800000, guid: ec75e3bf131dc4b4b80ee860116f85dd, type: 3}
+  jumpLeftHat2: {fileID: 2800000, guid: fad1c11d1d64f944583f87fc12725e35, type: 3}
+  idleLeftHat3: {fileID: 2800000, guid: 242ab6c8ab7f9d8428c6abdfeaa81b64, type: 3}
+  idleRightHat3: {fileID: 2800000, guid: f588f4adf892dac4e9b1d19148248177, type: 3}
+  left1Hat3: {fileID: 2800000, guid: 242ab6c8ab7f9d8428c6abdfeaa81b64, type: 3}
+  left2Hat3: {fileID: 2800000, guid: 242ab6c8ab7f9d8428c6abdfeaa81b64, type: 3}
+  right1Hat3: {fileID: 2800000, guid: f588f4adf892dac4e9b1d19148248177, type: 3}
+  right2Hat3: {fileID: 2800000, guid: f588f4adf892dac4e9b1d19148248177, type: 3}
+  fireLeftHat3: {fileID: 2800000, guid: 242ab6c8ab7f9d8428c6abdfeaa81b64, type: 3}
+  fireRightHat3: {fileID: 2800000, guid: f588f4adf892dac4e9b1d19148248177, type: 3}
+  jumpRightHat3: {fileID: 2800000, guid: f588f4adf892dac4e9b1d19148248177, type: 3}
+  jumpLeftHat3: {fileID: 2800000, guid: 242ab6c8ab7f9d8428c6abdfeaa81b64, type: 3}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1

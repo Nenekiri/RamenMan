@@ -36,6 +36,18 @@ var fireRightHat2:Texture;
 var jumpRightHat2:Texture;
 var jumpLeftHat2:Texture;  
 
+//Ramen Man with a fez
+var idleLeftHat3:Texture;
+var idleRightHat3:Texture;
+var left1Hat3:Texture;
+var left2Hat3:Texture;
+var right1Hat3:Texture;
+var right2Hat3:Texture;
+var fireLeftHat3:Texture;
+var fireRightHat3:Texture;
+var jumpRightHat3:Texture;
+var jumpLeftHat3:Texture; 
+
 
 //var RamenMan: GameObject; 
 
@@ -59,6 +71,38 @@ function Costume(){
 		fireRight = fireRightHat1; 
 		jumpRight = jumpRightHat1;
 		jumpLeft = jumpLeftHat1;  
+		
+	
+	}
+	
+	else if(PlayerPrefs.GetString("code1") == "Bowl"){
+		 //Debug.Log("something"); 
+		idleLeft = idleLeftHat2; 
+		idleRight = idleRightHat2; 
+		left1 = left1Hat2; 
+		left2 = left2Hat2; 
+		right1 = right1Hat2; 
+		right2 = right2Hat2;
+		fireLeft = fireLeftHat2; 
+		fireRight = fireRightHat2; 
+		jumpRight = jumpRightHat2;
+		jumpLeft = jumpLeftHat2;  
+		
+	
+	}
+	
+	else if(PlayerPrefs.GetString("code1") == "Cool"){
+		 //Debug.Log("something"); 
+		idleLeft = idleLeftHat3; 
+		idleRight = idleRightHat3; 
+		left1 = left1Hat3; 
+		left2 = left2Hat3; 
+		right1 = right1Hat3; 
+		right2 = right2Hat3;
+		fireLeft = fireLeftHat3; 
+		fireRight = fireRightHat3; 
+		jumpRight = jumpRightHat3;
+		jumpLeft = jumpLeftHat3;  
 		
 	
 	}
