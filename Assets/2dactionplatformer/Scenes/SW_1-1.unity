@@ -20853,7 +20853,7 @@ MonoBehaviour:
   deadZone: 1
   followVertical: 1
   followHorizontal: 1
-  minimumHeight: -2
+  minimumHeight: -25
 --- !u!114 &1181368288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20868,7 +20868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 12
   jumpHeight: 21
-  fallLimit: -14
+  fallLimit: -50
   jumpSound: {fileID: 8300000, guid: be240f2765d286e4eb58df76a649f46b, type: 3}
   firstJump: 0
   secondJump: 0
@@ -37042,7 +37042,7 @@ MonoBehaviour:
     orthographicOrigin: 0
     orthographicType: 0
     transparencySortMode: 0
-    fieldOfView: 80.4000015
+    fieldOfView: 79.3000031
     rect:
       serializedVersion: 2
       x: 0
@@ -37068,7 +37068,7 @@ MonoBehaviour:
   viewportRegion: {x: 0, y: 0, z: 100, w: 100}
   zoomFactor: 1
   forceResolutionInEditor: 1
-  forceResolution: {x: 1024, y: 600}
+  forceResolution: {x: 1280, y: 800}
 --- !u!81 &2134973849
 AudioListener:
   m_ObjectHideFlags: 0
@@ -37108,7 +37108,7 @@ Camera:
     height: 1
   near clip plane: .300000012
   far clip plane: 1000
-  field of view: 80.4000015
+  field of view: 79.3000031
   orthographic: 0
   orthographic size: 8
   m_Depth: -1
