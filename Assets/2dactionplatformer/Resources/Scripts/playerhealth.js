@@ -38,7 +38,7 @@ colorCounter = 0.0;
 }
 
 //if the player falls down a hole we want to reload the scene... because he died.
-if(transform.position.y < -25){
+if(transform.position.y < -50){
 var lvlName:String = Application.loadedLevelName;
 Application.LoadLevel(lvlName);
 }

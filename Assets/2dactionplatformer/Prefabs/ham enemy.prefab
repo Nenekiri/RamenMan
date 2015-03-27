@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: 90, y: 0, z: -2.59854096e-05}
+  m_LocalPosition: {x: 32.6257133, y: 28.7380161, z: -2.59854096e-05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
   right2: {fileID: 2800000, guid: a663e58cb0fa95849ba000ac4e5b5da1, type: 3}
   deathAnim: {fileID: 100000, guid: be985e0566866484180a4b7b91e3f026, type: 2}
   heartDrop: {fileID: 100000, guid: 672f8a1cfffad47ea9aa082e26060e1d, type: 2}
-  health: 4
+  health: 3
   jumpSpeed: 2
 --- !u!136 &13600000
 CapsuleCollider:

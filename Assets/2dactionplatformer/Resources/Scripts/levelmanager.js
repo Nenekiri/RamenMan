@@ -55,8 +55,10 @@ Globals.keyGetRed = false; }
 }
 
 if(levelNumber == 8){
-if(other.tag == "Player"){
-Application.LoadLevel(nextLevel); }
+if(other.tag == "Player" && Globals.keyGetRed == true && Globals.keyGetYellow == true){
+Application.LoadLevel(nextLevel); 
+Globals.keyGetRed = false;
+Globals.keyGetYellow = false;  }
 }
 
 if(levelNumber == 9){

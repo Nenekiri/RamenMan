@@ -41,7 +41,7 @@ function isJumping(){
 					jumpCount = 1; 
 					jumpTime += Time.deltaTime;
 					Debug.Log(jumpCount); 
-					if(jumpTime > 0.25){
+					if(jumpTime > 0.30){
 						rigidbody.velocity.y = jumpHeight;
 						jumpCount = 2; 
 						jumpTime = 0.0;
