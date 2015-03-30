@@ -317,7 +317,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Credits: \n\nUnity Asset Store: \n2d Action Platformer Starter Kit\nDialoguer
-    \n2d Toolkit\n\nMusic: \n\n...And all the packets of ramen that got me to where
+    \n2d Toolkit\n\nMusic: \n\nSpecial Thanks: \n\nFortune compilation and costume
+    marketing: \nCody Emery\n\n...And all the packets of ramen that got me to where
     I am today"
 --- !u!222 &605281017
 CanvasRenderer:

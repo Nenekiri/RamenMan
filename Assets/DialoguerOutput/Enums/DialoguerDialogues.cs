@@ -8,4 +8,10 @@ public enum DialoguerDialogues{
 	Bequeathing = 4,
 	Chinese_is_here = 5,
 	Fortune_Cookie = 6,
+	Fortune_1 = 7,
+	Fortune_2 = 8,
+	Fortune_3 = 9,
+	Fortune_4 = 10,
+	Fortune_5 = 11,
+	Fortune_6 = 12,
 }

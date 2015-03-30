@@ -51,5 +51,55 @@ public class PauseMenuScript : MonoBehaviour {
 		//set back the time scale to normal time scale
 		Time.timeScale = 1;
 	}
+
+	public void ChangeToScene (string sceneToChangeTo){
+		Application.LoadLevel (sceneToChangeTo); }
+
+	public void GTFO (){
+
+		Application.Quit(); 
+
+
+
+	}
+
+	public void aintNobodyGotTimeForThat(){
+
+		Dialoguer.EndDialogue(); 
+
+
+	}
+
+	public void dailyAdvice(){
+
+		int fortune = Random.Range(1, 6);
+
+
+		if(fortune == 1){
+			Dialoguer.StartDialogue(7); 
+
+		}
+		else if(fortune == 2){
+			Dialoguer.StartDialogue(8);
+		}
+		else if(fortune == 3){
+			Dialoguer.StartDialogue(9);
+		}
+		else if(fortune == 4){
+			Dialoguer.StartDialogue(10);
+		}
+		else if(fortune == 5){
+			Dialoguer.StartDialogue(11);
+		}
+		else if(fortune == 6){
+			Dialoguer.StartDialogue(12);
+		}
+
+
+
+
+	}
+
+
 	
 }
