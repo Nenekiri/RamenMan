@@ -5,6 +5,7 @@ var sound: AudioClip;
 function OnTriggerEnter (other : Collider){
 
 
+
 if(other.tag == "Player"){
 audio.PlayOneShot(sound);
 Globals.keyGetYellow = true;	

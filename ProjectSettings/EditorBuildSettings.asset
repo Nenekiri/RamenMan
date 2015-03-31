@@ -31,3 +31,5 @@ EditorBuildSettings:
     path: Assets/2dactionplatformer/Scenes/SW_1-1.unity
   - enabled: 1
     path: Assets/2dactionplatformer/Scenes/SW_1-2.unity
+  - enabled: 1
+    path: Assets/2dactionplatformer/Scenes/SW_Boss.unity

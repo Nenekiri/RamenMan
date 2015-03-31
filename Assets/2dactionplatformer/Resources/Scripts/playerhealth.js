@@ -91,6 +91,8 @@ var controls = gameObject.GetComponent(playercontrols);
 var weapons = gameObject.GetComponent(playerweapons);
 controls.enabled = false;
 weapons.enabled = false;
+Globals.keyGetYellow = false; 
+Globals.keyGetRed = false; 
 yield WaitForSeconds(3);
 var lvlName:String = Application.loadedLevelName;
 Application.LoadLevel(lvlName);

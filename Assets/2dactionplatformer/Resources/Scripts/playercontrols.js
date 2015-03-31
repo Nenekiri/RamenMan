@@ -283,6 +283,8 @@ for(var touch2 : Touch in Input.touches) {
 
 //reset level if player falls past Fall Limit
 if(transform.position.y < fallLimit){
+Globals.keyGetYellow = false; 
+Globals.keyGetRed = false;
 var lvlName:String = Application.loadedLevelName;
 Application.LoadLevel(lvlName);
 }
