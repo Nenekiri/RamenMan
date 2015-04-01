@@ -5,23 +5,23 @@ public class beefCubeBoss : MonoBehaviour {
 
 	//here are the public variables for the beef cube boss. these can be changed in the inspector.
 	//the sound when he gets hurt.
-	public AudioClip hurtSound; 
-	//the sound when he shoots a bullet
-	public AudioClip shootSound; 
 
-	public GameObject deathAnim; 
 
-	public int health = 30; 
+	public Vector3 pointB;
 
 	//private variables
 
-	private GameObject target; 
+	//private GameObject target; 
 
-	public Vector3 pointB;
+
+
+
+
+
 	
 	IEnumerator Start()
 	{
-		target = GameObject.Find("ramen_man");
+		//target = GameObject.Find("ramen_man");
 		var pointA = transform.position;
 		while (true) {
 			yield return StartCoroutine(MoveObject(transform, pointA, pointB, 7.0f));
@@ -53,9 +53,10 @@ public class beefCubeBoss : MonoBehaviour {
 
 
 
-
 	
 	}
+
+
 
 
 
