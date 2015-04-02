@@ -51,7 +51,7 @@ audio.PlayOneShot(hitSound);
 renderer.material.color.g = 0.25;
 renderer.material.color.b = 0.25;
 checkHealth();
-if(other.name == "enemybullet(Clone)"){
+if(other.name == "Boss bullet(Clone)"){
 Destroy(other.gameObject);
 }
 }

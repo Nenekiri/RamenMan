@@ -37,7 +37,7 @@ var enemyBullet:GameObject;
 //var heartDrop:GameObject;
 var health:int = 15;
 
-var bossDeath: boolean = false; 
+
 
 
 
@@ -68,10 +68,22 @@ renderer.material.color.b = 1;
 }
 }
 
-if(bossDeath == true){
+//if his health is 0 or less, we want to spawn the death animation, possibly drop a heart, and destroy him.
+if(health <= 0){ 
+Instantiate(deathAnim, transform.position, Quaternion.Euler(0,180,0));
+
+//Instantiate(heartDrop, transform.position, Quaternion.Euler(0,180,0));
+
+Destroy(gameObject);
+Globals.bossDeath = true;
+}
+
+if(Globals.bossDeath == true){
 
 
-Debug.Log("You win the demo! Huzzah! Have some ramen to celebrate"); 
+
+Application.LoadLevel("endingScreen"); 
+
 
 }
 
@@ -88,17 +100,7 @@ renderer.material.color.g = 0.5;
 renderer.material.color.b = 0.5; 
 colorCounter = 0.0;
 health -= 1;
-//if his health is 0 or less, we want to spawn the death animation, possibly drop a heart, and destroy him.
-if(health <= 0){
-bossDeath = true; 
-Instantiate(deathAnim, transform.position, Quaternion.Euler(0,180,0));
 
-
-
-//Instantiate(heartDrop, transform.position, Quaternion.Euler(0,180,0));
-
-Destroy(gameObject);
-}
 }
 }//end of OnTriggerEnter
 
@@ -128,11 +130,11 @@ yield WaitForSeconds(0.5);
 //play the shot sound
 audio.PlayOneShot(shootSound);
 //spawn the bullet
-var bullet = Instantiate(enemyBullet, transform.position + Vector3(shotPos,0.5,0),Quaternion.Euler(0,180,bulletAngle));
-var bullet2 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,0.7,0),Quaternion.Euler(0,180,bulletAngle));
-var bullet3 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,0.9,0),Quaternion.Euler(0,180, bulletAngle));
-var bullet4 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,1.1,0),Quaternion.Euler(0,180,bulletAngle));
-var bullet5 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,1.3,0),Quaternion.Euler(0,180,bulletAngle));
+var bullet = Instantiate(enemyBullet, transform.position + Vector3(shotPos,0,0),Quaternion.Euler(0,180,bulletAngle));
+var bullet2 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,3,0),Quaternion.Euler(0,180,bulletAngle));
+var bullet3 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,6,0),Quaternion.Euler(0,180, bulletAngle));
+var bullet4 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,9,0),Quaternion.Euler(0,180,bulletAngle));
+var bullet5 = Instantiate(enemyBullet, transform.position + Vector3(shotPos,12,0),Quaternion.Euler(0,180,bulletAngle));
 //set velocity to the bullet
 bullet.rigidbody.velocity.x = bulletVelocity;
 bullet2.rigidbody.velocity.x = bulletVelocity;

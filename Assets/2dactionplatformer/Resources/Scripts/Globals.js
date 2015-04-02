@@ -10,4 +10,4 @@ static var portalOpened: boolean = false;
  
  static var keyGetRed: boolean = false; 
 
-
+static var bossDeath: boolean = false; 
