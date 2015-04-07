@@ -8,7 +8,9 @@ public class timer : MonoBehaviour {
 	 
 	void Awake(){
 
-		DontDestroyOnLoad(transform.gameObject); 
+		//used MyUnitySingleton instead to make it more usable
+
+		//DontDestroyOnLoad(transform.gameObject); 
 	}
 
 
@@ -44,7 +46,9 @@ public class timer : MonoBehaviour {
 		
 		string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
 		
-			GUI.Label(new Rect(10,10,250,100), niceTime);
+
+
+			GUI.Label(new Rect(25,12,250,100), "<size=20>" + niceTime + "</size>");
 		}//end of if statement
 	}
 }

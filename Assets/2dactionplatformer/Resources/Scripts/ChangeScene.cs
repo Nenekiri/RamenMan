@@ -17,9 +17,14 @@ public class ChangeScene : MonoBehaviour {
 		Application.LoadLevel (sceneToChangeTo); }
 
 	public void NewGame(){
-		//PlayerPrefs.DeleteAll();
-		PlayerPrefs.DeleteKey("savedLevel"); 
-		Application.LoadLevel("level1");
+
+		//Deletes the game's data and lets the player start fresh
+		PlayerPrefs.DeleteAll();
+		Application.LoadLevel("level1"); 
+
+		//old method only cleared levels and not upgrades
+		//PlayerPrefs.DeleteKey("savedLevel"); 
+		//Application.LoadLevel("level1");
 	}
 
 	public void ContinueGame(){

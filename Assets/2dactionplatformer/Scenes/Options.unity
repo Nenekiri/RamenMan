@@ -436,7 +436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &733836297
 RectTransform:
   m_ObjectHideFlags: 0
@@ -717,6 +717,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   placeholderText: {fileID: 0}
+  topHat: 0
+  bowler: 0
+  fez: 0
 --- !u!114 &765416732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,9 +1259,9 @@ MonoBehaviour:
   m_Color: {r: .195999995, g: .195999995, b: .195999995, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a9e4b266fcbe948b8b4c381d93e6c452, type: 3}
-    m_FontSize: 20
+    m_FontSize: 22
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4

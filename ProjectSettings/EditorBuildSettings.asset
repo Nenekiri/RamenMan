@@ -35,3 +35,5 @@ EditorBuildSettings:
     path: Assets/2dactionplatformer/Scenes/SW_Boss.unity
   - enabled: 1
     path: Assets/2dactionplatformer/Scenes/endingScreen.unity
+  - enabled: 1
+    path: Assets/2dactionplatformer/Scenes/Help.unity

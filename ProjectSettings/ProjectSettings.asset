@@ -71,7 +71,7 @@ PlayerSettings:
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   productGUID: 84716145260099940a0dfb147c9be811
-  iPhoneBundleVersion: 1.0
+  iPhoneBundleVersion: 1.2
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 9
   AndroidPreferredInstallLocation: 1
@@ -103,8 +103,8 @@ PlayerSettings:
   iPadHighResLandscapeSplashScreen: {fileID: 0}
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  AndroidKeystoreName: C:/Users/MIele/Desktop/RamenMan/0Ramen.keystore
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/MIele/Desktop/RamenMan/Assets/Build stuff/0RamenMan.keystore
+  AndroidKeyaliasName: 0ramenman
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons:
   - m_BuildTarget: 
