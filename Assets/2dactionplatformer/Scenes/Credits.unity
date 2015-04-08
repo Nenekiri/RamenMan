@@ -319,8 +319,8 @@ MonoBehaviour:
   m_Text: "Credits: \n\nUnity Asset Store: \n2d Action Platformer Starter Kit\nDialoguer
     \n2d Toolkit\n\nMusic: Courtesy of OpenGameArt.org\nlemon42-A Journey Awaits\nMegupets-Creation
     of values www.megupets.com\n3uhox-SummerTown\ndeadEarth-Back Home\n\nSpecial Thanks:
-    \n\nFortune compilation and costume marketing: \nCody Emery\n\n...And all the
-    packets of ramen that got me to where I am today"
+    \nFortune compilation and costume marketing: \nCody Emery\n\n...And all the packets
+    of ramen that got me to where I am today"
 --- !u!222 &605281017
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -414,9 +414,9 @@ RectTransform:
   - {fileID: 177093063}
   m_Father: {fileID: 1972969938}
   m_RootOrder: 1
-  m_AnchorMin: {x: .5, y: .5}
-  m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -315, y: -205}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 85, y: 45}
   m_SizeDelta: {x: 70, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1162557905

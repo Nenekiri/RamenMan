@@ -49,6 +49,10 @@ public class timer : MonoBehaviour {
 
 
 			GUI.Label(new Rect(25,12,250,100), "<size=20>" + niceTime + "</size>");
+
+		
+
+
 		}//end of if statement
 	}
 }

@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: 60.0138245, y: 14.1310186, z: -1.92629832e-05}
+  m_LocalPosition: {x: 138.100006, y: -3.79999995, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -145,10 +145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hurtSound: {fileID: 8300000, guid: f9d5e8de84e9742b88487fa219a25534, type: 3}
-  jumpLeft1: {fileID: 2800000, guid: de7ad20b4cbfceb488324e763af4d8af, type: 3}
-  jumpLeft2: {fileID: 2800000, guid: de7ad20b4cbfceb488324e763af4d8af, type: 3}
+  jumpLeft1: {fileID: 2800000, guid: 0faa5fbc4becd584ca54157311eccc2c, type: 3}
+  jumpLeft2: {fileID: 2800000, guid: 34f53e470c9d3824687905d09a2e20ba, type: 3}
   jumpRight1: {fileID: 2800000, guid: 52dba7aa377ca6942b988a101f6f0b46, type: 3}
-  jumpRight2: {fileID: 2800000, guid: 52dba7aa377ca6942b988a101f6f0b46, type: 3}
+  jumpRight2: {fileID: 2800000, guid: 75e73db4933c5c44ab2f521d47397477, type: 3}
   deathAnim: {fileID: 100000, guid: be985e0566866484180a4b7b91e3f026, type: 2}
   heartDrop: {fileID: 100000, guid: 672f8a1cfffad47ea9aa082e26060e1d, type: 2}
   health: 4
