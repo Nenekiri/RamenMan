@@ -1,9 +1,9 @@
 #pragma strict
 
 //how fast the player walks
-var walkSpeed:float = 14.0;
+var walkSpeed:float = 12.0;
 //how high the player can jump
-var jumpHeight:float = 8.0;
+var jumpHeight:float = 15.0;
 //at what point the level resets if the player falls in a hole
 var fallLimit:float = -300;
 //jump sound
@@ -25,14 +25,14 @@ private var jumpTime: float = 0.0;
 private var wallCollide: boolean = false; 
 
 function isGrounded(){
-		if (Physics.Raycast (transform.position - Vector3(0,0.25,0), Vector3(0,-1,0), hit) && hit.distance < 0.74) {
+	if (Physics.Raycast (transform.position - Vector3(0,0.25,0), Vector3(0,-1,0), hit) && hit.distance < 0.74) {
 	
 	 
 	jumpCount = 0;    
 	//Debug.Log("isGrounded");
 	//Debug.Log(jumpCount);  
-				}
-			}//end of isGrounded
+	}
+}//end of isGrounded
 			
 function isJumping(){
 
@@ -65,6 +65,10 @@ function isJumping(){
 function Update () {
 //jumpCounter becomes a timer.
 jumpCounter += Time.deltaTime;
+
+
+
+
  
 
 #if UNITY_WEBPLAYER
@@ -281,6 +285,33 @@ for(var touch2 : Touch in Input.touches) {
 
 #endif
 
+
+//moving left
+if(Input.GetAxis("Horizontal") < 0) {
+	if(rigidbody.velocity.x > 0){
+			rigidbody.velocity.x = 0;
+		}
+	if(rigidbody.velocity.x > -walkSpeed){
+		rigidbody.velocity.x -= 48*Time.deltaTime *12;
+	}
+}
+//moving right
+if(Input.GetAxis("Horizontal") > 0){
+
+	if(rigidbody.velocity.x < 0){
+			rigidbody.velocity.x = 0;
+		}
+	if(rigidbody.velocity.x < walkSpeed){
+		rigidbody.velocity.x += 48*Time.deltaTime *12;
+	}	
+}
+if(Input.GetButton("Jump")){
+
+	Debug.Log("jumping!");
+	isJumping();
+}
+
+
 //reset level if player falls past Fall Limit
 if(transform.position.y < fallLimit){
 Globals.keyGetYellow = false; 
@@ -288,8 +319,6 @@ Globals.keyGetRed = false;
 var lvlName:String = Application.loadedLevelName;
 Application.LoadLevel(lvlName);
 }
-
-
 
 //end of function update
 }

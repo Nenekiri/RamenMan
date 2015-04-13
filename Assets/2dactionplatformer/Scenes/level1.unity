@@ -20484,6 +20484,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: acc890c23f15b1a4e9e3339ec45a3b55, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: acc890c23f15b1a4e9e3339ec45a3b55, type: 2}
+      propertyPath: walkSpeed
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: acc890c23f15b1a4e9e3339ec45a3b55, type: 2}
+      propertyPath: jumpHeight
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: acc890c23f15b1a4e9e3339ec45a3b55, type: 2}
   m_RootGameObject: {fileID: 1079602208}

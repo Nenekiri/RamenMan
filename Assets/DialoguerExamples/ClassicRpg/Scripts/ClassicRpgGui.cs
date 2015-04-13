@@ -59,7 +59,7 @@ public class ClassicRpgGui : MonoBehaviour {
 		if(!_dialogue || _ending) return;
 		
 		if(!_isBranchedText){
-			if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)){
+			if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return) || Input.GetButtonDown("Jump") || Input.GetButton("Fire1")){
 				if(_windowCurrentText == _windowTargetText){
 					Dialoguer.ContinueDialogue(0);
 				}else{
@@ -79,6 +79,7 @@ public class ClassicRpgGui : MonoBehaviour {
 			if(Input.GetMouseButtonDown(0) && _windowCurrentText != _windowTargetText){
 				_windowCurrentText = _windowTargetText;
 			}
+
 			if(Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)){
 				if(_windowCurrentText == _windowTargetText){
 					Dialoguer.ContinueDialogue(_currentChoice);
