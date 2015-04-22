@@ -117,6 +117,32 @@ if (Physics.Raycast (transform.position - Vector3(0,0.25,0), Vector3(0,-1,0), hi
 
  
  isGrounded();
+ 
+ 
+ //moving left
+if(Input.GetAxis("Horizontal") < 0) {
+	if(rigidbody.velocity.x > 0){
+			rigidbody.velocity.x = 0;
+		}
+	if(rigidbody.velocity.x > -walkSpeed){
+		rigidbody.velocity.x -= 48*Time.deltaTime *12;
+	}
+}
+//moving right
+if(Input.GetAxis("Horizontal") > 0){
+
+	if(rigidbody.velocity.x < 0){
+			rigidbody.velocity.x = 0;
+		}
+	if(rigidbody.velocity.x < walkSpeed){
+		rigidbody.velocity.x += 48*Time.deltaTime *12;
+	}	
+}
+if(Input.GetButtonUp("Jump")){
+
+	Debug.Log("jumping!");
+	isJumping();
+}
 
 //iOS Controls (same as Android because they both deal with screen touches)
 if(Input.touchCount > 0){
@@ -305,7 +331,7 @@ if(Input.GetAxis("Horizontal") > 0){
 		rigidbody.velocity.x += 48*Time.deltaTime *12;
 	}	
 }
-if(Input.GetButton("Jump")){
+if(Input.GetButtonUp("Jump")){
 
 	Debug.Log("jumping!");
 	isJumping();

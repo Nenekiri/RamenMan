@@ -37,6 +37,8 @@ var enemyBullet:GameObject;
 //var heartDrop:GameObject;
 var health:int = 15;
 
+var door: GameObject; 
+
 
 
 
@@ -45,9 +47,12 @@ var health:int = 15;
 
 function Start () {
 target = GameObject.Find("ramen_man");  
+door = GameObject.Find("endlevel"); 
 }
 
 function Update () {
+
+door.SetActive(false); 
 
 distance = target.transform.position.x - transform.position.x;
 
@@ -80,9 +85,13 @@ Globals.bossDeath = true;
 
 if(Globals.bossDeath == true){
 
+door.SetActive(true); 
+
+door.transform.position = target.transform.position + transform.right * 3.0; 
 
 
-Application.LoadLevel("endingScreen"); 
+
+//Application.LoadLevel("endingScreen"); 
 
 
 }

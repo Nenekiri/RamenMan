@@ -73,6 +73,24 @@ if(Input.GetKey(KeyCode.LeftShift)){
 
 //controls for shooting bullets for desktop versions of the game. These are the same as web, but are only compiled if its standalone
 #if UNITY_STANDALONE
+
+if(Input.GetButtonDown("Fire1")){
+
+	if(bulletCounter > fireRate){
+	var bulletPrefab2 = Instantiate(currentBullet, transform.position + Vector3(bulletPos,-0.25,0.01), Quaternion.Euler(0,180,0));
+	audio.PlayOneShot(bulletSound);
+	if(direction == true){
+	bulletPrefab2.transform.rigidbody.velocity.x = bulletSpeed;
+	}else{
+	bulletPrefab2.transform.rigidbody.velocity.x = -bulletSpeed;
+	}
+	bulletCounter = 0.0;
+	}	
+	
+
+}
+
+
 if(Input.touchCount > 0){
 for(var touch1 : Touch in Input.touches) { 
 //2nd touch for jump button
